@@ -202,6 +202,10 @@
     <Compile Include="Migrations\202002211811249_MakeBirthDateNullable.Designer.cs">
       <DependentUpon>202002211811249_MakeBirthDateNullable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002211840378_AddMoviesDBContext.cs" />
+    <Compile Include="Migrations\202002211840378_AddMoviesDBContext.Designer.cs">
+      <DependentUpon>202002211840378_AddMoviesDBContext.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -318,6 +322,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002211811249_MakeBirthDateNullable.resx">
       <DependentUpon>202002211811249_MakeBirthDateNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002211840378_AddMoviesDBContext.resx">
+      <DependentUpon>202002211840378_AddMoviesDBContext.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
