@@ -7,5 +7,5 @@
 <h2>@Model.Name</h2>
 <ul>
     <li>@Model.MembershipType</li>
-    <li>@Model.BirthDate</li>
+    <li>@Model.BirthDate?.ToShortDateString()</li>
 </ul>
