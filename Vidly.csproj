@@ -210,6 +210,10 @@
     <Compile Include="Migrations\202002211847094_AddGenre.Designer.cs">
       <DependentUpon>202002211847094_AddGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002211848108_PopulateGenre.cs" />
+    <Compile Include="Migrations\202002211848108_PopulateGenre.Designer.cs">
+      <DependentUpon>202002211848108_PopulateGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -333,6 +337,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002211847094_AddGenre.resx">
       <DependentUpon>202002211847094_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002211848108_PopulateGenre.resx">
+      <DependentUpon>202002211848108_PopulateGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
