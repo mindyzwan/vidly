@@ -214,6 +214,10 @@
     <Compile Include="Migrations\202002211848108_PopulateGenre.Designer.cs">
       <DependentUpon>202002211848108_PopulateGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002211851404_AddReleaseDateAddedDateAndQuantityStockToMovie.cs" />
+    <Compile Include="Migrations\202002211851404_AddReleaseDateAddedDateAndQuantityStockToMovie.Designer.cs">
+      <DependentUpon>202002211851404_AddReleaseDateAddedDateAndQuantityStockToMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -340,6 +344,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002211848108_PopulateGenre.resx">
       <DependentUpon>202002211848108_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002211851404_AddReleaseDateAddedDateAndQuantityStockToMovie.resx">
+      <DependentUpon>202002211851404_AddReleaseDateAddedDateAndQuantityStockToMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
