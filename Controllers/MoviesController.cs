@@ -32,7 +32,7 @@ namespace Vidly.Controllers
         // GET: Movies/Detail/Id
         public ActionResult Detail(int id)
         {
-            var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
+            var movie = _context.Movies.Include(c => c.Genre).SingleOrDefault(c => c.Id == id);
 
             if (movie == null)
                 return HttpNotFound();
